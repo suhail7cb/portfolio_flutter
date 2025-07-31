@@ -3,24 +3,13 @@
 
 A professional portfolio website built with Flutter Web, showcasing mobile development expertise and projects.
 
-Here's a look at the main interface:
+Welcome to my project! Here's a quick look:
 
-https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/1.png
-https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/2.png
-https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/3.png
-https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/4.png
-
-
-(assets/screenshots/1.png)
-(assets/screenshots/2.png)
-(assets/screenshots/3.png)
-(assets/screenshots/4.png)
-(assets/screenshots/5.png)
-(assets/screenshots/6.png)
-(assets/screenshots/7.png)
-(assets/screenshots/8.png)
-(assets/screenshots/9.png)
-(assets/screenshots/10.png)
+![App Screenshot 1](assets/screenshots/1.png)
+![App Screenshot 2](assets/screenshots/2.png)
+![App Screenshot 3](assets/screenshots/3.png)
+![App Screenshot 4](assets/screenshots/4.png)
+![App Screenshot 5](assets/screenshots/5.png)
 
 ## Features
 
