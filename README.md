@@ -1,8 +1,20 @@
-[Portfolio.pdf](../Portfolio.pdf)
 
 # Suhail Shabir Portfolio - Flutter Web
 
 A professional portfolio website built with Flutter Web, showcasing mobile development expertise and projects.
+
+Here's a look at the main interface:
+![Main application interface showing user dashboard]
+(assets/screenshots/1.png)
+(assets/screenshots/2.png)
+(assets/screenshots/3.png)
+(assets/screenshots/4.png)
+(assets/screenshots/5.png)
+(assets/screenshots/6.png)
+(assets/screenshots/7.png)
+(assets/screenshots/8.png)
+(assets/screenshots/9.png)
+(assets/screenshots/10.png)
 
 ## Features
 
