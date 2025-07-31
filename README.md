@@ -10,6 +10,11 @@ Welcome to my project! Here's a quick look:
 ![App Screenshot 3](assets/screenshots/3.png)
 ![App Screenshot 4](assets/screenshots/4.png)
 ![App Screenshot 5](assets/screenshots/5.png)
+![App Screenshot 6](assets/screenshots/6.png)
+![App Screenshot 7](assets/screenshots/7.png)
+![App Screenshot 8](assets/screenshots/8.png)
+![App Screenshot 9](assets/screenshots/9.png)
+![App Screenshot 10](assets/screenshots/10.png)
 
 ## Features
 
