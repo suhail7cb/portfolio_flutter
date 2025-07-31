@@ -1,3 +1,5 @@
+[Portfolio.pdf](../Portfolio.pdf)
+
 # Suhail Shabir Portfolio - Flutter Web
 
 A professional portfolio website built with Flutter Web, showcasing mobile development expertise and projects.
@@ -73,7 +75,7 @@ lib/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/portfolio-flutter.git
+git clone https://github.com/suhail7cb/portfolio_flutter.git
 cd portfolio-flutter
 ```
 
