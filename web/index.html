@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Suhail Shabir - Mobile Developer | Experienced Flutter & iOS Developer with over a decade of professional experience in mobile application development.">
+  <meta name="keywords" content="Flutter Developer, iOS Developer, Mobile App Developer, Suhail Shabir, Portfolio">
+  <meta name="author" content="Suhail Shabir">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Suhail Shabir Portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Suhail Shabir - Mobile Developer Portfolio</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1A1F36;
+      color: white;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .loading-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #252B42;
+      border-top: 4px solid #4285F4;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #ffffff70;
+    }
+  </style>
+</head>
+<body>
+<div class="loading-container">
+  <div class="spinner"></div>
+  <div class="loading-text">Loading Portfolio...</div>
+</div>
+
+<script>
+  window.addEventListener('flutter-first-frame', function () {
+    document.querySelector('.loading-container').style.display = 'none';
+  });
+</script>
+
+<script src="flutter.js" defer></script>
+</body>
+</html>
