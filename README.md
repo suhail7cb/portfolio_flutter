@@ -4,7 +4,13 @@
 A professional portfolio website built with Flutter Web, showcasing mobile development expertise and projects.
 
 Here's a look at the main interface:
-![Main application interface showing user dashboard]
+
+https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/1.png
+https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/2.png
+https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/3.png
+https://github.com/suhail7cb/portfolio_flutter/blob/main/assets/screenshots/4.png
+
+
 (assets/screenshots/1.png)
 (assets/screenshots/2.png)
 (assets/screenshots/3.png)
