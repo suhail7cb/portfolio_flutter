@@ -22,12 +22,12 @@ class LocalAssetImage extends StatelessWidget {
     // For mobile, assets/images/...
     // This is a placeholder, replace with your actual Image.asset logic
     return Image.asset(
-      '$imageName', // Crucial: Ensure this path is correct
+      imageName, // Crucial: Ensure this path is correct
       fit: fit,
       width: width,
       height: height,
       errorBuilder: (context, error, stackTrace) {
-        print("Error loading image $imageName: $error"); // Log error
+        // print("Error loading image $imageName: $error"); // Log error
         return Container(
           color: Colors.grey[200],
           child: const Center(

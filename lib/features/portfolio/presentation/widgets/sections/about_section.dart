@@ -16,7 +16,7 @@ class AboutSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
 
     return ResponsiveBuilder(
       builder: (context, sizingInformation) {
@@ -108,7 +108,7 @@ class AboutSection extends StatelessWidget {
             child: Container(
               color: Colors.grey[300],
               //mobile_app_image.jpg
-              child: LocalAssetImage(
+              child: const LocalAssetImage(
                 imageName: 'assets/images/mobile_app_image.jpg',
                 fit: BoxFit.cover,
               ),

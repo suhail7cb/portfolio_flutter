@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:portfolio_flutter/features/portfolio/domain/entities/portfolio_entities.dart';
-import 'package:portfolio_flutter/features/portfolio/presentation/widgets/local_asset_image.dart';
 import 'package:portfolio_flutter/l10n/app_localizations.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -21,7 +20,7 @@ class HomeSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
+    final l10n = AppLocalizations.of(context);
 
     return ResponsiveBuilder(
       builder: (context, sizingInformation) {
@@ -145,7 +144,7 @@ class HomeSection extends StatelessWidget {
                 'assets/images/profile1.jpg',
                 'assets/images/profile2.jpg',
               ],
-              autoScrollDuration: const Duration(seconds: 3),
+              autoScrollDuration: Duration(seconds: 3),
               imageFit: BoxFit.cover,// Change scroll speed
             ),
           ),
